@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(245, 222, 179, 0.1);
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    color: rgb(249, 235, 209);
+    text-align: center;
+}
+
+header h1{
+    font-size: 72pt;
+}
+
+#searchArea{
+width: 100%;
+padding: 0;
+}
+
+#searchField{
+    width: 40%;
+    height: 50px;
+    padding: 3px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #333;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-left: 20px;
+}
+
+#searchSubmit{
+    width: 100px;
+    height: 50px;
+    background-color: wheat;
+    color: #333;
+    font-size: 24px;
+    padding: 3px;
+    margin-left: -4px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#searchSubmit:hover{
+    background-color: greenyellow;
+}
+
+#notes{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#notes li {
+    background-color: wheat;
+    color: #333;
+    width: 30%;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.name{
+    width: 80%;
+    font-size: 24px;
+}
+
+.delet{
+    background-color: #333;
+    color: wheat;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.delet:hover{
+    background-color:tomato;   
+}
+
+#addForm{
+    text-align: center; 
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.addInput{
+    width: 40%;
+    height: 40px;
+    padding: 3px;
+    font-size: 24px;
+    color: #333;
+    border: 4px solid #333;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-left: 20px;
+    margin-top: -5px;
+}
+
+.addSub{
+    height: 100%;
+    background-color:#333;
+    color: wheat;
+    font-size: 38px;
+    padding: 1px 8px 11px 9px;
+    margin-left: -8px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.addSub:hover{
+    color: greenyellow;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    color: wheat;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    clear: both;
+    font-size: 9pt;   
+}
