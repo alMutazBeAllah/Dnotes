@@ -8,7 +8,50 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 <body>
-    
+    <label name="header-label">
+        <header>
+            <label name="head-label">
+                <h1>Dnotes</h1>
+            </label>
+            <label name="search-area-label">
+                <form id="searchArea">
+                    <input type="search" id="searchField" placeholder="Find your note..">
+                    <input type="submit" id="searchSubmit" value="Search">
+                </form>
+            </label>
+        </header>
+    </label>
+    <label name="hide-label">
+        
+    </label>
+    <label name="notes-label">
+        <ul id="notes">
+            <li>
+                <span class="name">Sunday meating on 10 am</span><br/><br/>
+                <span class="delet">Delete</span>
+            </li>
+            <li>
+                <span class="name">Accounting Meating on 3:00 pm</span><br/><br/>
+                <span class="delet">Delete</span>
+            </li>
+            <li>
+                <span class="name">FB vs RM on 10:30 pm</span><br/><br/>
+                <span class="delet">Delete</span>
+            </li>
+        </ul>
+    </label>
+    <label name="add-list-label">
+        <form id="addForm">
+            <input class="addInput" name="add" type="text" placeholder="Add your note ...">
+            <input class="addSub" type="submit" value="+">
+        </form>
+    </label>
+
+    <label name="footer">
+        <footer>
+            <h1>This web page created by Almutazbeallah &copy;</h1>
+        </footer>
+    </label>
     <script src="main.js"></script>
 </body>
 </html>
